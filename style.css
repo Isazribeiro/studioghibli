@@ -7,9 +7,11 @@ body {
 
 .categoriavideos {
   display: flex;
+  flex-direction: row;
+  overflow-x: auto;
   gap: 15px;
   margin-top: 20px;
-  flex-wrap: wrap;
+  padding-bottom: 10px;
 }
 
 .categoriavideos a {
@@ -30,3 +32,4 @@ body {
   display: block;
   border-radius: 8px;
 }
+
