@@ -25,11 +25,11 @@ body {
   transform: scale(1.05);
 }
 
-.categoriavideos img {
-  width: 100%;
+.categoriavideos iframe {
+  width: 250px;
   height: 140px;
-  object-fit: cover;
-  display: block;
   border-radius: 8px;
+  flex: 0 0 auto;
 }
+
 
