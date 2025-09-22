@@ -7,29 +7,19 @@ body {
 
 .categoriavideos {
   display: flex;
-  flex-direction: row;
   overflow-x: auto;
-  gap: 20px;
-  margin-top: 20px;
-  padding-bottom: 10px;
+  gap: 10px;
 }
 
-.categoriavideos a {
-  flex: 0 0 250px;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
+section {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.categoriavideos a:hover {
-  transform: scale(1.05);
+.categoriavideos img {
+     opacity: 0.5;
 }
 
-.categoriavideos iframe {
-  width: 250px;
-  height: 140px;
-  border-radius: 8px;
-  flex: 0 0 auto;
+.categoriavideos img:hover {
+     opacity: 1.0;
 }
-
-
