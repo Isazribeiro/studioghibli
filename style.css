@@ -9,6 +9,7 @@ body {
   display: flex;
   overflow-x: auto;
   gap: 10px;
+  border-radius: 8px;
 }
 
 section {
