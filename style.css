@@ -18,7 +18,9 @@ section {
 }
 
 .categoriavideos img {
-     opacity: 0.5;
+  opacity: 0.5;
+  border-radius: 8px;
+  transition: opacity 0.3s ease; 
 }
 
 .categoriavideos img:hover {
